@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TDHistoryItem" representedClassName="TDHistoryItem" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toothDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toothHolder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TDToothInfo" inverseName="historyItems" inverseEntity="TDToothInfo" syncable="YES"/>
+    </entity>
+    <entity name="TDToothInfo" representedClassName="TDToothInfo" syncable="YES">
+        <attribute name="isRoot" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tooth_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="historyItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TDHistoryItem" inverseName="toothHolder" inverseEntity="TDHistoryItem" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TDUser" inverseName="teethInfo" inverseEntity="TDUser" syncable="YES"/>
+    </entity>
+    <entity name="TDUser" representedClassName="TDUser" syncable="YES">
+        <attribute name="eMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="familyMembers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TDUser" inverseName="familyMembers" inverseEntity="TDUser" syncable="YES"/>
+        <relationship name="teethInfo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TDToothInfo" inverseName="user" inverseEntity="TDToothInfo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TDUser" positionX="-668" positionY="-243" width="128" height="133"/>
+        <element name="TDToothInfo" positionX="-423" positionY="-229" width="128" height="103"/>
+        <element name="TDHistoryItem" positionX="-396" positionY="-27" width="128" height="103"/>
+    </elements>
 </model>
