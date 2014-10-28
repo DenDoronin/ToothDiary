@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/MagicalRecord" "${PODS_ROOT}/Headers/Public/WYPopoverController" "${PODS_ROOT}/Headers/Public/iOS-Slide-Menu"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/MagicalRecord" -isystem "${PODS_ROOT}/Headers/Public/WYPopoverController" -isystem "${PODS_ROOT}/Headers/Public/iOS-Slide-Menu"
+OTHER_LDFLAGS = -ObjC -l"Pods-ToothDiary-AFNetworking" -l"Pods-ToothDiary-MagicalRecord" -l"Pods-ToothDiary-WYPopoverController" -l"Pods-ToothDiary-iOS-Slide-Menu" -framework "CoreData" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

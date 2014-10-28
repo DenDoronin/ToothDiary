@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FourthQuaterViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="FourthQuaterView">
+            <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IV - preview" translatesAutoresizingMaskIntoConstraints="NO" id="4j1-XC-PeB">
+                    <rect key="frame" x="0.0" y="-93" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="833-MH-dNm" customClass="TDToothButton">
+                    <rect key="frame" x="55" y="100" width="56" height="61"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="Yox-pw-jWk"/>
+                        <constraint firstAttribute="height" constant="61" id="lGo-3h-a4i"/>
+                        <constraint firstAttribute="width" secondItem="833-MH-dNm" secondAttribute="height" multiplier="56:61" id="vLO-wV-OGZ"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="48">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="psz-Fh-Pdk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WqT-ir-qrD" customClass="TDToothButton">
+                    <rect key="frame" x="65" y="165" width="62" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="0Rv-WY-eNa"/>
+                        <constraint firstAttribute="width" secondItem="WqT-ir-qrD" secondAttribute="height" multiplier="62:65" id="3Pm-gt-OZ9"/>
+                        <constraint firstAttribute="width" constant="62" id="zzD-HF-3tb"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="47">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="Muc-sv-kzR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYe-QE-BV8" customClass="TDToothButton">
+                    <rect key="frame" x="89" y="232" width="67" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="67" id="b51-Bn-tgS"/>
+                        <constraint firstAttribute="height" constant="68" id="eJK-QX-77j"/>
+                        <constraint firstAttribute="width" secondItem="KYe-QE-BV8" secondAttribute="height" multiplier="67:68" id="sRA-cH-atr"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="46">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="ci4-oz-HyQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psA-13-psQ" customClass="TDToothButton">
+                    <rect key="frame" x="156" y="343" width="47" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="psA-13-psQ" secondAttribute="height" multiplier="47:40" id="Yss-tz-B1W"/>
+                        <constraint firstAttribute="height" constant="40" id="gMh-HC-zRS"/>
+                        <constraint firstAttribute="width" constant="47" id="n7r-mA-zVW"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="44">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="Gpr-Qh-2ww"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vde-cz-OCk" customClass="TDToothButton">
+                    <rect key="frame" x="230" y="396" width="36" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Vde-cz-OCk" secondAttribute="height" multiplier="9:10" id="iXy-Wk-xwU"/>
+                        <constraint firstAttribute="width" constant="36" id="p9K-yv-Sss"/>
+                        <constraint firstAttribute="height" constant="40" id="rWd-qS-lWT"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="42">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="dmd-oc-QOK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H56-UI-JjT" customClass="TDToothButton">
+                    <rect key="frame" x="273" y="405" width="34" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="H56-UI-JjT" secondAttribute="height" multiplier="34:37" id="GZa-Ls-1g8"/>
+                        <constraint firstAttribute="width" constant="34" id="n4D-eE-ZuK"/>
+                        <constraint firstAttribute="height" constant="37" id="wdY-LC-j4i"/>
+                    </constraints>
+                    <state key="normal" image="41">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="gQZ-5e-RLh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZr-JV-GF7" customClass="TDToothButton">
+                    <rect key="frame" x="189" y="375" width="42" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="1rN-2R-NRQ"/>
+                        <constraint firstAttribute="height" constant="41" id="9Hn-2c-NNx"/>
+                        <constraint firstAttribute="width" secondItem="bZr-JV-GF7" secondAttribute="height" multiplier="42:41" id="QLB-zX-gGe"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="43">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="Nwp-bT-yhU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woX-Wc-ck2" customClass="TDToothButton">
+                    <rect key="frame" x="124" y="300" width="57" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="54P-cz-dna"/>
+                        <constraint firstAttribute="width" constant="57" id="8Ox-4I-UzK"/>
+                        <constraint firstAttribute="width" secondItem="woX-Wc-ck2" secondAttribute="height" multiplier="57:44" id="pi8-8b-FMG"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="45">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="toothButtonPressed:" destination="-1" eventType="touchUpInside" id="lzL-Ml-9gX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bZr-JV-GF7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="189" id="0hw-2f-rXA"/>
+                <constraint firstItem="psA-13-psQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="343" id="Awd-2Q-css"/>
+                <constraint firstItem="H56-UI-JjT" firstAttribute="leading" secondItem="Vde-cz-OCk" secondAttribute="trailing" constant="7" id="Bz8-Jc-mMP"/>
+                <constraint firstItem="4j1-XC-PeB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CP4-4f-1S0"/>
+                <constraint firstAttribute="trailing" secondItem="4j1-XC-PeB" secondAttribute="trailing" id="HCN-5Y-f4s"/>
+                <constraint firstItem="4j1-XC-PeB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-93" id="Jdb-9l-7oz"/>
+                <constraint firstItem="833-MH-dNm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="T2d-us-Mo8"/>
+                <constraint firstItem="WqT-ir-qrD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="65" id="WCm-fm-NNG"/>
+                <constraint firstItem="KYe-QE-BV8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="89" id="Ynw-5b-vYM"/>
+                <constraint firstItem="woX-Wc-ck2" firstAttribute="top" secondItem="KYe-QE-BV8" secondAttribute="bottom" id="cn6-0S-g1n"/>
+                <constraint firstAttribute="bottom" secondItem="4j1-XC-PeB" secondAttribute="bottom" constant="-1" id="cpB-Lj-Fcn"/>
+                <constraint firstItem="H56-UI-JjT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="405" id="dZw-Ju-gXU"/>
+                <constraint firstItem="WqT-ir-qrD" firstAttribute="top" secondItem="833-MH-dNm" secondAttribute="bottom" constant="4" id="dvm-kW-ysy"/>
+                <constraint firstItem="woX-Wc-ck2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="124" id="eTR-JR-9er"/>
+                <constraint firstItem="Vde-cz-OCk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="230" id="l4u-1s-4Ud"/>
+                <constraint firstItem="bZr-JV-GF7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="375" id="mSq-5H-bPc"/>
+                <constraint firstItem="833-MH-dNm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="55" id="n8Z-ik-fap"/>
+                <constraint firstItem="KYe-QE-BV8" firstAttribute="top" secondItem="WqT-ir-qrD" secondAttribute="bottom" constant="2" id="pOa-vC-wc8"/>
+                <constraint firstItem="psA-13-psQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="156" id="ptm-WQ-IEZ"/>
+                <constraint firstItem="Vde-cz-OCk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="396" id="tQz-Jp-bOJ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="ivBackGroundImageView" destination="4j1-XC-PeB" id="N0w-Ke-8U8"/>
+                <outlet property="tooth41" destination="H56-UI-JjT" id="V9f-0x-K2I"/>
+                <outlet property="tooth42" destination="Vde-cz-OCk" id="btV-su-P1R"/>
+                <outlet property="tooth43" destination="bZr-JV-GF7" id="Mco-0t-MKp"/>
+                <outlet property="tooth44" destination="psA-13-psQ" id="AlH-a0-y34"/>
+                <outlet property="tooth45" destination="woX-Wc-ck2" id="eGM-pl-JoJ"/>
+                <outlet property="tooth46" destination="KYe-QE-BV8" id="bfD-AG-ZLO"/>
+                <outlet property="tooth47" destination="WqT-ir-qrD" id="gao-02-rDD"/>
+                <outlet property="tooth48" destination="833-MH-dNm" id="s3d-SG-9GZ"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="41" width="54" height="63"/>
+        <image name="42" width="63" height="68"/>
+        <image name="43" width="67" height="69"/>
+        <image name="44" width="78" height="70"/>
+        <image name="45" width="92" height="74"/>
+        <image name="46" width="112" height="114"/>
+        <image name="47" width="105" height="108"/>
+        <image name="48" width="95" height="97"/>
+        <image name="IV - preview" width="640" height="1136"/>
+    </resources>
+</document>

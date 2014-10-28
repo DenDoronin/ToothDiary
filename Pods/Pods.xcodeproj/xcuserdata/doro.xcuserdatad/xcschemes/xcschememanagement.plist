@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ToothDiary-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ToothDiary-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ToothDiary-WYPopoverController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ToothDiary-iOS-Slide-Menu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ToothDiary.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>34B1DDB6F548D8BC8D23BBDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F8A9591744346D086BF41D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E21954C538B6EEC490C6CBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94F98DED05FE343DFF41D6AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A41F37592BBF882D94855909</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
