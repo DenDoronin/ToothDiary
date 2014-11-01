@@ -11,6 +11,22 @@
 		81A178511A00077D006BAE92 /* TDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A178501A00077D006BAE92 /* TDUser.m */; };
 		81A178541A00077F006BAE92 /* TDToothInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A178531A00077F006BAE92 /* TDToothInfo.m */; };
 		81A178571A000780006BAE92 /* TDHistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A178561A000780006BAE92 /* TDHistoryItem.m */; };
+		81CABA931A04FBF500B934E4 /* TDWelcomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABA8F1A04FBF500B934E4 /* TDWelcomePageController.m */; };
+		81CABA941A04FBF500B934E4 /* TDWelcomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CABA901A04FBF500B934E4 /* TDWelcomePageController.xib */; };
+		81CABA951A04FBF500B934E4 /* TDWelcomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABA921A04FBF500B934E4 /* TDWelcomePageView.m */; };
+		81CABAA81A04FC5500B934E4 /* TDApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABA9B1A04FC5500B934E4 /* TDApiClient.m */; };
+		81CABAAA1A04FC5500B934E4 /* TDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAA01A04FC5500B934E4 /* TDDataManager.m */; };
+		81CABAAB1A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAA31A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.m */; };
+		81CABAAC1A04FC5500B934E4 /* TDLaunchScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAA51A04FC5500B934E4 /* TDLaunchScreenHelper.m */; };
+		81CABAAF1A04FD3000B934E4 /* TDApiClient+Registration.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAAE1A04FD3000B934E4 /* TDApiClient+Registration.m */; };
+		81CABAB71A0530F300B934E4 /* TDHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAB51A0530F300B934E4 /* TDHomePageController.m */; };
+		81CABAB81A0530F300B934E4 /* TDHomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CABAB61A0530F300B934E4 /* TDHomePageController.xib */; };
+		81CABABB1A05311400B934E4 /* TDHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABABA1A05311400B934E4 /* TDHomePageView.m */; };
+		81CABABE1A05317700B934E4 /* TDHomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABABD1A05317700B934E4 /* TDHomePageModel.m */; };
+		81CABAC31A05382600B934E4 /* TDCreateUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAC11A05382600B934E4 /* TDCreateUserController.m */; };
+		81CABAC41A05382600B934E4 /* TDCreateUserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CABAC21A05382600B934E4 /* TDCreateUserController.xib */; };
+		81CABAC71A05384900B934E4 /* TDCreateUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAC61A05384900B934E4 /* TDCreateUserView.m */; };
+		81CABACA1A05386600B934E4 /* TDCreateUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CABAC91A05386600B934E4 /* TDCreateUserModel.m */; };
 		81F43B1019E3CB5B00900475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F43B0F19E3CB5B00900475 /* main.m */; };
 		81F43B1319E3CB5B00900475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F43B1219E3CB5B00900475 /* AppDelegate.m */; };
 		81F43B1619E3CB5B00900475 /* ToothDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81F43B1419E3CB5B00900475 /* ToothDiary.xcdatamodeld */; };
@@ -50,6 +66,36 @@
 		81A178531A00077F006BAE92 /* TDToothInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDToothInfo.m; path = Model/Entities/TDToothInfo.m; sourceTree = "<group>"; };
 		81A178551A000780006BAE92 /* TDHistoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDHistoryItem.h; path = Model/Entities/TDHistoryItem.h; sourceTree = "<group>"; };
 		81A178561A000780006BAE92 /* TDHistoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDHistoryItem.m; path = Model/Entities/TDHistoryItem.m; sourceTree = "<group>"; };
+		81CABA8E1A04FBF500B934E4 /* TDWelcomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWelcomePageController.h; sourceTree = "<group>"; };
+		81CABA8F1A04FBF500B934E4 /* TDWelcomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWelcomePageController.m; sourceTree = "<group>"; };
+		81CABA901A04FBF500B934E4 /* TDWelcomePageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDWelcomePageController.xib; sourceTree = "<group>"; };
+		81CABA911A04FBF500B934E4 /* TDWelcomePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWelcomePageView.h; sourceTree = "<group>"; };
+		81CABA921A04FBF500B934E4 /* TDWelcomePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWelcomePageView.m; sourceTree = "<group>"; };
+		81CABA9A1A04FC5500B934E4 /* TDApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDApiClient.h; sourceTree = "<group>"; };
+		81CABA9B1A04FC5500B934E4 /* TDApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDApiClient.m; sourceTree = "<group>"; };
+		81CABA9F1A04FC5500B934E4 /* TDDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDataManager.h; sourceTree = "<group>"; };
+		81CABAA01A04FC5500B934E4 /* TDDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDataManager.m; sourceTree = "<group>"; };
+		81CABAA21A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLaunchiPhoneScreenBuilder.h; sourceTree = "<group>"; };
+		81CABAA31A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLaunchiPhoneScreenBuilder.m; sourceTree = "<group>"; };
+		81CABAA41A04FC5500B934E4 /* TDLaunchScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLaunchScreenHelper.h; sourceTree = "<group>"; };
+		81CABAA51A04FC5500B934E4 /* TDLaunchScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLaunchScreenHelper.m; sourceTree = "<group>"; };
+		81CABAA61A04FC5500B934E4 /* LaunchScreenProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScreenProtocol.h; sourceTree = "<group>"; };
+		81CABAAD1A04FD3000B934E4 /* TDApiClient+Registration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDApiClient+Registration.h"; sourceTree = "<group>"; };
+		81CABAAE1A04FD3000B934E4 /* TDApiClient+Registration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TDApiClient+Registration.m"; sourceTree = "<group>"; };
+		81CABAB41A0530F300B934E4 /* TDHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDHomePageController.h; path = "iPhone/Home page/TDHomePageController.h"; sourceTree = "<group>"; };
+		81CABAB51A0530F300B934E4 /* TDHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDHomePageController.m; path = "iPhone/Home page/TDHomePageController.m"; sourceTree = "<group>"; };
+		81CABAB61A0530F300B934E4 /* TDHomePageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TDHomePageController.xib; path = "iPhone/Home page/TDHomePageController.xib"; sourceTree = "<group>"; };
+		81CABAB91A05311400B934E4 /* TDHomePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDHomePageView.h; path = "iPhone/Home page/TDHomePageView.h"; sourceTree = "<group>"; };
+		81CABABA1A05311400B934E4 /* TDHomePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDHomePageView.m; path = "iPhone/Home page/TDHomePageView.m"; sourceTree = "<group>"; };
+		81CABABC1A05317700B934E4 /* TDHomePageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDHomePageModel.h; path = "iPhone/Home page/TDHomePageModel.h"; sourceTree = "<group>"; };
+		81CABABD1A05317700B934E4 /* TDHomePageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDHomePageModel.m; path = "iPhone/Home page/TDHomePageModel.m"; sourceTree = "<group>"; };
+		81CABAC01A05382600B934E4 /* TDCreateUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDCreateUserController.h; path = "iPhone/Create user page/TDCreateUserController.h"; sourceTree = "<group>"; };
+		81CABAC11A05382600B934E4 /* TDCreateUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDCreateUserController.m; path = "iPhone/Create user page/TDCreateUserController.m"; sourceTree = "<group>"; };
+		81CABAC21A05382600B934E4 /* TDCreateUserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TDCreateUserController.xib; path = "iPhone/Create user page/TDCreateUserController.xib"; sourceTree = "<group>"; };
+		81CABAC51A05384900B934E4 /* TDCreateUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDCreateUserView.h; path = "iPhone/Create user page/TDCreateUserView.h"; sourceTree = "<group>"; };
+		81CABAC61A05384900B934E4 /* TDCreateUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDCreateUserView.m; path = "iPhone/Create user page/TDCreateUserView.m"; sourceTree = "<group>"; };
+		81CABAC81A05386600B934E4 /* TDCreateUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDCreateUserModel.h; path = "iPhone/Create user page/TDCreateUserModel.h"; sourceTree = "<group>"; };
+		81CABAC91A05386600B934E4 /* TDCreateUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDCreateUserModel.m; path = "iPhone/Create user page/TDCreateUserModel.m"; sourceTree = "<group>"; };
 		81F43B0A19E3CB5B00900475 /* ToothDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToothDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F43B0E19E3CB5B00900475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81F43B0F19E3CB5B00900475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,6 +174,82 @@
 			name = Entities;
 			sourceTree = "<group>";
 		};
+		81CABA8D1A04FBF500B934E4 /* Welcome page */ = {
+			isa = PBXGroup;
+			children = (
+				81CABA8E1A04FBF500B934E4 /* TDWelcomePageController.h */,
+				81CABA8F1A04FBF500B934E4 /* TDWelcomePageController.m */,
+				81CABA901A04FBF500B934E4 /* TDWelcomePageController.xib */,
+				81CABA911A04FBF500B934E4 /* TDWelcomePageView.h */,
+				81CABA921A04FBF500B934E4 /* TDWelcomePageView.m */,
+			);
+			name = "Welcome page";
+			path = "iPhone/Welcome page";
+			sourceTree = "<group>";
+		};
+		81CABA971A04FC5500B934E4 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				81CABA9A1A04FC5500B934E4 /* TDApiClient.h */,
+				81CABA9B1A04FC5500B934E4 /* TDApiClient.m */,
+				81CABAAD1A04FD3000B934E4 /* TDApiClient+Registration.h */,
+				81CABAAE1A04FD3000B934E4 /* TDApiClient+Registration.m */,
+			);
+			name = ApiClient;
+			path = Model/ApiClient;
+			sourceTree = "<group>";
+		};
+		81CABA9C1A04FC5500B934E4 /* Data manger */ = {
+			isa = PBXGroup;
+			children = (
+				81CABA9F1A04FC5500B934E4 /* TDDataManager.h */,
+				81CABAA01A04FC5500B934E4 /* TDDataManager.m */,
+			);
+			name = "Data manger";
+			path = "Model/Data manger";
+			sourceTree = "<group>";
+		};
+		81CABAA11A04FC5500B934E4 /* LaunchScreenHelper */ = {
+			isa = PBXGroup;
+			children = (
+				81CABAA21A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.h */,
+				81CABAA31A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.m */,
+				81CABAA41A04FC5500B934E4 /* TDLaunchScreenHelper.h */,
+				81CABAA51A04FC5500B934E4 /* TDLaunchScreenHelper.m */,
+				81CABAA61A04FC5500B934E4 /* LaunchScreenProtocol.h */,
+			);
+			name = LaunchScreenHelper;
+			path = Model/LaunchScreenHelper;
+			sourceTree = "<group>";
+		};
+		81CABAB01A05304100B934E4 /* Home page */ = {
+			isa = PBXGroup;
+			children = (
+				81CABAB41A0530F300B934E4 /* TDHomePageController.h */,
+				81CABAB51A0530F300B934E4 /* TDHomePageController.m */,
+				81CABAB61A0530F300B934E4 /* TDHomePageController.xib */,
+				81CABAB91A05311400B934E4 /* TDHomePageView.h */,
+				81CABABA1A05311400B934E4 /* TDHomePageView.m */,
+				81CABABC1A05317700B934E4 /* TDHomePageModel.h */,
+				81CABABD1A05317700B934E4 /* TDHomePageModel.m */,
+			);
+			name = "Home page";
+			sourceTree = "<group>";
+		};
+		81CABABF1A0537E900B934E4 /* Create user page */ = {
+			isa = PBXGroup;
+			children = (
+				81CABAC01A05382600B934E4 /* TDCreateUserController.h */,
+				81CABAC11A05382600B934E4 /* TDCreateUserController.m */,
+				81CABAC21A05382600B934E4 /* TDCreateUserController.xib */,
+				81CABAC51A05384900B934E4 /* TDCreateUserView.h */,
+				81CABAC61A05384900B934E4 /* TDCreateUserView.m */,
+				81CABAC81A05386600B934E4 /* TDCreateUserModel.h */,
+				81CABAC91A05386600B934E4 /* TDCreateUserModel.m */,
+			);
+			name = "Create user page";
+			sourceTree = "<group>";
+		};
 		81F43B0119E3CB5B00900475 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +319,9 @@
 		81F43B3819E3D44600900475 /* Iphone */ = {
 			isa = PBXGroup;
 			children = (
+				81CABABF1A0537E900B934E4 /* Create user page */,
+				81CABAB01A05304100B934E4 /* Home page */,
+				81CABA8D1A04FBF500B934E4 /* Welcome page */,
 				81F43B4F19E3F85200900475 /* Fourth Quater */,
 				81F43B3919E3D44D00900475 /* Slide menu */,
 			);
@@ -221,6 +346,9 @@
 		81F43B4519E3D4F100900475 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81CABA971A04FC5500B934E4 /* ApiClient */,
+				81CABA9C1A04FC5500B934E4 /* Data manger */,
+				81CABAA11A04FC5500B934E4 /* LaunchScreenHelper */,
 				81A1784E1A000759006BAE92 /* Entities */,
 			);
 			name = Model;
@@ -376,6 +504,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F43B4E19E3D89700900475 /* SlideMenuCell.xib in Resources */,
+				81CABA941A04FBF500B934E4 /* TDWelcomePageController.xib in Resources */,
+				81CABAC41A05382600B934E4 /* TDCreateUserController.xib in Resources */,
+				81CABAB81A0530F300B934E4 /* TDHomePageController.xib in Resources */,
 				81F43B1E19E3CB5B00900475 /* Images.xcassets in Resources */,
 				81F43B5419E3F88E00900475 /* FourthQuaterViewController.xib in Resources */,
 				81F43B3E19E3D48D00900475 /* SlideMenuController.xib in Resources */,
@@ -430,20 +561,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CABAB71A0530F300B934E4 /* TDHomePageController.m in Sources */,
 				81F43B4D19E3D89700900475 /* SlideMenuCell.m in Sources */,
 				81F43B1619E3CB5B00900475 /* ToothDiary.xcdatamodeld in Sources */,
 				81F43B6419E4508000900475 /* UIViewController+navigationDecoration.m in Sources */,
+				81CABABB1A05311400B934E4 /* TDHomePageView.m in Sources */,
 				81F43B3D19E3D48D00900475 /* SlideMenuController.m in Sources */,
 				81F43B1319E3CB5B00900475 /* AppDelegate.m in Sources */,
 				81F43B5C19E3F9C200900475 /* UIView+XIBFactory.m in Sources */,
+				81CABABE1A05317700B934E4 /* TDHomePageModel.m in Sources */,
 				81A178541A00077F006BAE92 /* TDToothInfo.m in Sources */,
 				81A178571A000780006BAE92 /* TDHistoryItem.m in Sources */,
+				81CABA951A04FBF500B934E4 /* TDWelcomePageView.m in Sources */,
+				81CABAAA1A04FC5500B934E4 /* TDDataManager.m in Sources */,
 				81F43B4419E3D4E000900475 /* SlideMenuModel.m in Sources */,
+				81CABACA1A05386600B934E4 /* TDCreateUserModel.m in Sources */,
+				81CABA931A04FBF500B934E4 /* TDWelcomePageController.m in Sources */,
+				81CABAAB1A04FC5500B934E4 /* TDLaunchiPhoneScreenBuilder.m in Sources */,
 				81F43B1019E3CB5B00900475 /* main.m in Sources */,
 				81F43B4119E3D4BF00900475 /* SlideMenuView.m in Sources */,
 				81F43B6119E4494300900475 /* TDToothButton.m in Sources */,
+				81CABAAC1A04FC5500B934E4 /* TDLaunchScreenHelper.m in Sources */,
+				81CABAC71A05384900B934E4 /* TDCreateUserView.m in Sources */,
+				81CABAA81A04FC5500B934E4 /* TDApiClient.m in Sources */,
 				81A178511A00077D006BAE92 /* TDUser.m in Sources */,
+				81CABAC31A05382600B934E4 /* TDCreateUserController.m in Sources */,
 				81F43B5719E3F8A800900475 /* FourthQuaterView.m in Sources */,
+				81CABAAF1A04FD3000B934E4 /* TDApiClient+Registration.m in Sources */,
 				81F43B5319E3F88E00900475 /* FourthQuaterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

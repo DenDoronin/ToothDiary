@@ -8,9 +8,8 @@
 
 #import "AppDelegate.h"
 #import "UIView+XIBFactory.h"
-#import "SlideMenuController.h"
-#import "SlideMenuModel.h"
-#import "SlideNavigationController.h"
+
+#import "TDLaunchiPhoneScreenBuilder.h"
 
 #import "FourthQuaterViewController.h"
 
@@ -23,39 +22,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [self setupLaunchWindow];
-    
-    // Override point for customization after application launch.
-    return YES;
-}
-
--(void) setupLaunchWindow
-{
+//    [self setupLaunchWindow];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
     if (!(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad))
     {
-        FourthQuaterViewController *rootVC = [[FourthQuaterViewController alloc] initWithNibName:NSStringFromClass([FourthQuaterViewController class]) bundle:nil];
-        
-        SlideNavigationController *navVC = [[SlideNavigationController alloc] initWithRootViewController:rootVC];
-        
-        SlideMenuController *leftMenu = [[SlideMenuController alloc] initWithNibName:NSStringFromClass([SlideMenuController class]) bundle:nil];
-        SlideMenuModel* model = [[SlideMenuModel alloc] initWithManagerProvider:nil];
-        [leftMenu setValue:model forKeyPath:@"model"];
-        
-        UINavigationController*leftMenuNav = [[UINavigationController alloc] initWithRootViewController:leftMenu];
-        
-        navVC.leftMenu = leftMenuNav;
-        
-        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-        self.window.backgroundColor = [UIColor whiteColor];
-        self.window.rootViewController = navVC;
-        [self.window makeKeyAndVisible];
+        [TDLaunchiPhoneScreenBuilder setupLaunchWindow:self.window];
         
     }
     else
     {
-      
+        // TO do - add screen builder for ipad
     }
+    [self.window makeKeyAndVisible];
+
+    // Override point for customization after application launch.
+    return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
